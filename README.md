@@ -1,6 +1,6 @@
 # Results on MMT_Rocket_Bodies Dataset
 
-Benchmark result for selected models on the MMT_Rocket_Bodies dataset [^1]. Results for individual models are obtained using the `main.py` script.
+Benchmark result for selected models on the MMT_Rocket_Bodies dataset ([link]( https://huggingface.co/datasets/kyselica/MMT_Rocket_Bodies)). 
 
 Selected models:
 - [`AllworthNet`](./modules/allworth.py) [^2] 
@@ -9,19 +9,20 @@ Selected models:
 - [`ResNet20`](./modules/resnet.py) [^5]
 - [`Astroconformer`](https://github.com/panjiashu/Astroconformer) [^6]
 
-Configurations for each model are provided in the `configs.py` script.
+
+To run an evaluation experiment use `main.py` script. Configurations for each model are provided in the `configs.py`.
 
 
 ## Results on the test set
 
-| Model          | Accuracy | Precision | Recall | F1 Score | 
-|----------------|----------|-----------|--------|----------|
-| AllworthNet    | 0.64     | 0.57      | 0.57   | 0.56     |
-| YaoNet         | 0.68     | 0.63      | 0.60   | 0.61     |
-| FurfaroNet     | 0.61     | 0.56      | 0.57   | 0.56     |
-| ResNet20       | 0.74     | 0.74      | 0.70   | 0.71     |
-| Astroconformer | 0.74     | 0.72      | 0.68   | 0.69     |
 
+| Model             | Accuracy       | Precision     | Recall        | F1 Score      |
+|-------------------|----------------|---------------|---------------|---------------|
+| ALLWORTH [^2]       | 0.559 ± 0.044  | 0.478 ± 0.038 | 0.491 ± 0.033 | 0.531 ± 0.024 |
+| RESNET20 [^5]        | 0.694 ± 0.023  | 0.600 ± 0.034 | 0.738 ± 0.026 | 0.584 ± 0.033 |
+| FURFARO [^4]        | 0.628 ± 0.009  | 0.552 ± 0.013 | 0.570 ± 0.017 | 0.552 ± 0.013 |
+| YAO [^3]           | 0.672 ± 0.017  | 0.604 ± 0.023 | 0.622 ± 0.029 | 0.601 ± 0.020 |
+| ASTROCONFORMER [^6] | 0.725 ± 0.011  | 0.684 ± 0.015 | 0.702 ± 0.010 | 0.677 ± 0.019 |
 
 
 ==================================================
