@@ -1,0 +1,6 @@
+[submodule "benchmark/Astroconformer"]
+	path = benchmark/Astroconformer
+	url = https://github.com/panjiashu/Astroconformer.git
+[submodule "Astroconformer"]
+	path = Astroconformer
+	url = https://github.com/panjiashu/Astroconformer.git
