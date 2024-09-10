@@ -4,7 +4,7 @@ from transforms import *
 config = {
     "model": "FURFARO",
     "path": "~/work/mmt",
-    "dataset_dir": "../MMT_Rocket_Bodies",
+    "dataset_dir": "./RoBo6", # Path to the dataset 
     "input_size": 10_000,
     "n_classes": 6,
     "in_channels": 1,

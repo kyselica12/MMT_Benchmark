@@ -1,4 +1,4 @@
-# Results on MMT_Rocket_Bodies Dataset
+# Results on RoBo6 dataset
 
 Benchmark result for selected models on the MMT_Rocket_Bodies dataset ([link]( https://huggingface.co/datasets/kyselica/MMT_Rocket_Bodies)). 
 
