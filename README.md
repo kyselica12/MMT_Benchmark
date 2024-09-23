@@ -1,6 +1,6 @@
 # Results on RoBo6 dataset
 
-Benchmark result for selected models on the MMT_Rocket_Bodies dataset ([link]( https://huggingface.co/datasets/kyselica/MMT_Rocket_Bodies)). 
+Benchmark result for selected models on the RoBo6 dataset ([link](https://huggingface.co/datasets/kyselica/RoBo6)). 
 
 Selected models:
 - [`AllworthNet`](./modules/allworth.py) [^2] 
@@ -27,7 +27,7 @@ To run an evaluation experiment use `main.py` script. Configurations for each mo
 
 ==================================================
 
-[^1] https://huggingface.co/datasets/kyselica/MMT_Rocket_Bodies
+[^1] https://huggingface.co/datasets/kyselica/RoBo6
 
 [^2] Allworth, J., Windrim, L., Bennett, J., & Bryson, M. (2021). A transfer learning approach to space debris classification using observational light curve data. Acta Astronautica, 181, 301-315.
 
